@@ -1,0 +1,1 @@
+["^ ","~$returns-string",["^ ","~:row",8,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$clj-kondo-schema-return-repro.core","~:top-ns","^7","~:type","~:fn"],"~:filename","/Users/ed/src/clj-kondo-schema-return-repro/src/clj_kondo_schema_return_repro/core.clj"]

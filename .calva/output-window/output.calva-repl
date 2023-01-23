@@ -1,0 +1,92 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+clj꞉undefined꞉> 
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Jack-in done.
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+#'clj-kondo-schema-return-repro.core/returns-string
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+nil
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+#'clj-kondo-schema-return-repro.core/returns-string
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+nil
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Syntax error compiling at (src/clj_kondo_schema_return_repro/core.clj:4:22).
+; No such namespace: pretty
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+..instrumented #'clj-kondo-schema-return-repro.core/returns-string
+started instrumentation
+nil
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+#'clj-kondo-schema-return-repro.core/returns-string
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+..instrumented #'clj-kondo-schema-return-repro.core/returns-string
+started instrumentation
+nil
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+..instrumented #'clj-kondo-schema-return-repro.core/returns-string
+started instrumentation
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+..instrumented #'clj-kondo-schema-return-repro.core/returns-string
+started instrumentation
+1
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+..instrumented #'clj-kondo-schema-return-repro.core/returns-string
+started instrumentation
+"asd"
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+"asd"
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+..instrumented #'clj-kondo-schema-return-repro.core/returns-string
+started instrumentation
+"asd"
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+..instrumented #'clj-kondo-schema-return-repro.core/returns-string
+started instrumentation
+"asd"
+clj꞉clj-kondo-schema-return-repro.core꞉> 
+; Evaluating file: core.clj
+..instrumented #'clj-kondo-schema-return-repro.core/returns-string
+started instrumentation
+"asd"
+clj꞉clj-kondo-schema-return-repro.core꞉> 

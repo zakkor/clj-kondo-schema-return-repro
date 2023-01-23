@@ -1,0 +1,3 @@
+{:linters {:unresolved-symbol {:exclude [(malli.core/=>)]},
+           :type-mismatch {:namespaces {clj-kondo-schema-return-repro.core {returns-string {:arities {1 {:args [:string],
+                                                                                                         :ret :int}}}}}}}}
